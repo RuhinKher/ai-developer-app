@@ -1,0 +1,53 @@
+# AI Developer 👨‍💻⚡
+
+AI Developer is a full-stack, real-time collaborative coding platform built using the MERN stack, enhanced with AI-powered features via Google Gemini. It allows users to create projects, collaborate with friends, chat in real time, and request AI assistance for code generation and review — all within a sleek, modern UI.
+
+---
+
+## 🚀 Features
+
+- 🧠 **AI Code Assistant**: Use `@ai` in chat to get code suggestions or answers via Gemini AI.
+- 📂 **Project Management**: Create and manage projects individually or with teammates.
+- 💬 **Real-time Chat**: Chat with friends using Socket.io — updates are instant.
+- 👥 **Friend System**: Add other registered users to your projects.
+- 📄 **Code Review**: Paste code into the review tool to receive AI-generated suggestions.
+- 🌙 **Dark Mode**: Enjoy a modern dark-themed interface.
+- 🧱 **MVC Architecture**: Cleanly organized backend and frontend code structure.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- React
+- Tailwind CSS v3
+- Vite
+- Socket.io-client
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB
+- Redis (Session & Caching)
+- Socket.io
+- Google Gemini API
+- JWT (Authentication)
+
+---
+
+## 📁 Project Structure
+
+```bash
+ai-developer/
+├── client/              # React frontend
+│   ├── controllers/
+│   ├── components/
+│   └── ...
+├── server/              # Node.js backend
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   └── ...
+├── README.md
+├── package.json
+└── ...
