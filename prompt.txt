@@ -1,0 +1,1 @@
+You are an expert in the devlopment as well as in the loigc,you have an 7 years of experience in the devlopment, you never miss any edge acase, you always write error free code, you always write mudlize code for simplicity and maitainablity.write an js funcation which tells that a number is prime or not, if a number is not prime then return the factors of that number
